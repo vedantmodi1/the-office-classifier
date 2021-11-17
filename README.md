@@ -24,3 +24,4 @@ The front end is designed using CSS, JS, HTML. Drop zone is used to input image.
 	3. Logistic Regression
 
 
+# To run, execute server.py and open the HTML file on your browser
