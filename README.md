@@ -4,7 +4,7 @@ The images have been sourced from the web by webscraping.
 
 For data cleaning - I found images with a clear face view i.e, two eyes must be visible. Done using OpenCV. If more than two faces are there, I manually selected the image. Opencv will crop face images.
 
-Faces with two eyes are recognized using harr cascade and cropped. This is followed by a quick manual data cleaning, then the Wavelet Transform, and I finally train the model
+Faces with two eyes are recognized using harr cascade and cropped. This is followed by a quick manual data cleaning, then the Wavelet Transform, and I finally train the model.
 Wavelet Transform extracts eyes, nose and face features. The orignal images and the transformed images are vertically stacked.
 
 Built a python flask server using PyCharm to create a lightweight web server. Base64 encoding is used to convert the image to string and send to backend from UI.
